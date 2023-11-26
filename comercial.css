@@ -1,0 +1,128 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+.topo {
+    background-color:rgb(17, 5, 89);
+    padding: 10px;
+    margin: auto;
+    height: 50px;
+    position: fixed;
+}
+.logo{
+    display: flex;
+    justify-content:end;
+    flex-direction: row;
+    padding-top: 0px;
+}
+.logo > a:hover {
+    color: white    ;
+}
+.inicio{
+    margin: 18px 10px 10px 10px;
+    width: 45px;
+    height: 20px;
+    font-size: 15pt;
+    color: gold;
+    text-decoration: none;
+}
+.suporte{
+    margin: 18px 20px 10px 10px;
+    width: 60px;
+    height: 20px;
+    font-size: 15pt;
+    color: gold;
+    text-decoration: none;
+}
+.linha1{
+    height: 40px;
+    border-left: 3px solid gold;
+    margin: 8px 0px 0px 0px;
+}
+.sair{
+    margin: 15px 10px 20px 10px;
+    width: 45px;
+    height: 20px;
+    font-size: 20pt;
+    color: gold;
+    text-decoration: none;
+}
+.logo > img{
+    margin: 5px 5px 5px 5px;
+}
+.barra{
+    width: 300px;
+    height: 35px;
+    margin: 10px 275px 10px 420px;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+.barra > input{
+    width: 225px;
+    height: 25px;
+}
+.barra>button{
+    width:30px;
+    height: 30px;
+    margin: 0px;
+}
+.conteudo{
+    background-color: rgb(199, 199, 199);
+    width: 1060px;
+    height: 1390px;
+    margin: 0px 137px 0px 137px;
+    padding: 80px 15px 10px 15px;
+    
+}
+.conteudo > a{
+    text-decoration: none;
+    color: black;
+}
+.empresas{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;text-align: justify;
+}
+.empresas > img{
+    margin: 5px 0px 5px 0px;
+}
+.linha2{
+    height: 80px;
+    border-left: 3px solid gold;
+    margin: 25px 50px 0px 50px;
+}
+.nomeimpresa > h3{
+    margin: 10px 0px 10px 0px;
+}
+.serviçosimpresa > h4{
+    margin: 0px;
+    color: rgb(75, 74, 74);
+    width: 462px;
+    height:75 ;
+}
+.linha3{
+    height: 60px;
+    border-left: 3px solid gold;
+    margin: 35px 50px 0px 50px;
+}
+footer{
+    display: flex;
+    justify-content:space-between ;
+    flex-direction: row;
+    background-color: rgb(17, 5, 89);
+    height: 60px;
+    font-size: 10pt;
+}
+footer > h5{
+    margin: 10px 30px 5px 30px;
+    color: gold;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+

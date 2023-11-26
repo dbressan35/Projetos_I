@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte</title>
+    <link rel="stylesheet" href="suporte.css">
+       
+</head>
+<body>
+    <header>
+        <div id="suporte">
+            <h1>Suporte</h1>
+        </div>
+        <a href="pagina_comercial.html" class="link-botao" onclick="scrollToTop()">Voltar para o Início</a>
+    </header>
+
+    <section>
+        <h2>Como Podemos Ajudar?</h2>
+        <p>Bem-vindo à nossa página de suporte. Estamos aqui para ajudar com todas as suas dúvidas e problemas. Selecione uma das opções abaixo para obter assistência:</p>
+
+        <ul>
+            <li><strong>Contato:</strong> Entre em contato conosco diretamente se precisar de suporte personalizado.</li>
+            <li><strong>FAQ:</strong> Preencha nosso formulário para para obter respostas rápidas.</li>
+            
+        </ul>
+    </section>
+  
+
+   
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <li><strong>E-mail:</strong> teleserviços@gmail.com</li>
+        <li><strong>Telefone:</strong> (66) 4402-8922</li>
+       
+    </section>
+    <section id="faq">
+        <h2>Faq</h2>
+  <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="text" name="name" placeholder="Nome">
+        <input type="text" name="email" placeholder="Email">
+        <textarea name="text" placeholder="Dúvida"></textarea>
+        <input type="text" name="honeypot" style="display:none">
+        <input type="hidden" name="accessKey" value="aaaaaaaa-bbbb-cccc-dddd-eeee6666kkkk">
+        <input type="hidden" name="subject" value="Contato - SeuSite.com">
+        <input type="hidden" name="replyTo" value="@">
+        <input type="hidden" name="redirectTo" value="https://seusite.com/contato/sucesso">
+        <input type="submit" value="Enviar">
+    </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tele serviços</p>
+    </footer>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

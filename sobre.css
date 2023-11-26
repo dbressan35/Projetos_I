@@ -1,0 +1,63 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('imagens/fundo-sobre.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        header {
+            background-color: #110559; 
+            padding: 1em;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+            color: yellow;
+        }
+        #inicio {
+            color: yellow;
+            line-height: 19px;
+            margin-right: 120px; 
+        }
+        .link-botao {
+            appearance: button;
+            font-size: 21px;
+            padding: 10px 10px;    
+            border: none;
+            color: yellow;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            background-color: #110559;
+            transition: background-color 0.5s;
+        }
+
+        .link-botao:hover {
+        background-color: black
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.9); 
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        
+        h1 {
+            margin: 6;
+        }

@@ -1,0 +1,118 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.topo {
+    background-color:rgb(17, 5, 89);
+    padding: 10px;
+    margin: auto;
+    height: 50px;
+    width: 1346px;
+    position: fixed;
+}
+.logo{
+    display: flex;
+    justify-content:end;
+    flex-direction: row;
+    padding-top: 0px;
+}
+.logo > a:hover {
+    color: white    ;
+}
+.inicio{
+    margin: 18px 10px 10px 10px;
+    width: 45px;
+    height: 20px;
+    font-size: 15pt;
+    color: gold;
+    text-decoration: none;
+}
+.suporte{
+    margin: 18px 20px 10px 10px;
+    width: 60px;
+    height: 20px;
+    font-size: 15pt;
+    color: gold;
+    text-decoration: none;
+}
+.linha1{
+    height: 40px;
+    border-left: 3px solid gold;
+    margin: 8px 0px 0px 0px;
+}
+.sair{
+    margin: 15px 10px 20px 10px;
+    width: 45px;
+    height: 20px;
+    font-size: 20pt;
+    color: gold;
+    text-decoration: none;
+}
+.logo > img{
+    margin: 5px 5px 5px 5px;
+}
+.barra{
+    width: 300px;
+    height: 35px;
+    margin: 10px 275px 10px 420px;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+.barra > input{
+    width: 225px;
+    height: 25px;
+}
+.barra>button{
+    width:30px;
+    height: 30px;
+    margin: 0px;
+}
+.empresa{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    background-color: rgb(199, 199, 199);
+    width: 1060px;
+    height: 410px;
+    margin: 0px 137px 0px 137px;
+    padding: 80px 15px 10px 15px;
+}
+.conteudo1{
+    background-color: rgb(199, 199, 199);
+    width: 330px;
+    height: 400px;
+    margin: 35px 0px 0px 0px;
+}
+.linha{
+    height: 390px;
+    border-left: 3px solid rgb(0, 0, 0);
+    margin: 10px 20px 0px 20px;
+}
+.conteudo2{
+    background-color: rgb(199, 199, 199);
+    width: 500px;
+    height: 400px;
+}
+.contratar{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    background-color: rgb(199, 199, 199);
+    width: 1090px;
+    height: 150px;
+    margin: 0px 137px 0px 137px;
+}
+.contratar > button{
+    margin-top: 35px;
+    width: 400px;
+    height: 60px;
+    background-color: gold;
+    border-color: gold;
+    color: white;
+}
+

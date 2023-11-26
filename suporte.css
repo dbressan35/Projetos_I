@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('imagens/fundo-suporte.jpg'); 
+    background-size: cover;
+    background-position: center center;
+}
+
+header {
+    background-color: #110559;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: yellow;
+}
+
+#suporte {
+    color: yellow;
+    line-height: 19px;
+    text-align: end;
+    margin-right: 20px;
+}
+
+.link-botao {
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    color: yellow;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #110559;
+    transition: background-color 0.3s;
+}
+
+.link-botao:hover {
+    background-color: black;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #110559;
+    padding: 1em;
+    text-align: center;
+    color: yellow;
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #110559;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0d0444;
+}

@@ -1,0 +1,155 @@
+body{
+    background-image:url('imagens/imagemLoguin3_resized.webp') ;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.metade1{
+    background-color:rgba(18, 5, 89, 0);
+    margin: 0px 0px 10px 10px;
+    width: 800px;
+    height: 390px;
+    color: rgb(17, 5, 89);
+    display: inline-block;
+    justify-content: center;   
+}
+.fonte1{
+    font-size: 50pt;
+}
+.conteudo{
+    text-align: center;
+}  
+.tele{
+    color: rgb(17, 5, 89);
+}
+.tele > a{
+    color: gold;
+    text-decoration: none;
+}
+.tele > a:hover{
+    border-radius: 5px;
+    background-color: rgba(18, 5, 89, 0.329);
+}
+.link1{
+    display: inline-block;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    padding: 100px 200px 10px 80px;
+    text-decoration: none;
+}
+.link1 > a{
+    color: rgb(17, 5, 89);
+    text-decoration: none;
+}
+.link1 > a:hover{
+    color: gold;
+    border-radius: 5px;
+    background-color: rgba(18, 5, 89, 0.329);
+}
+.link2{
+    display: inline-block;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    padding: 100px 10px 10px 105px;
+    color: gold;
+    text-decoration: none;
+}
+.link2 > a{
+    color: rgb(17, 5, 89);
+    text-decoration: none;
+}
+.link2 > a:hover{
+    color: gold;
+    border-radius: 5px;
+    background-color: rgba(18, 5, 89, 0.329);
+}
+.metade2{
+    background-color: rgb(17, 5, 89);
+    margin: 55px 30px 55px 30px;
+    padding: 0px 0px 117px 0px;
+    width: 470px;
+    height: 420px;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    border: 2px solid rgb(17, 5, 89);
+    border-radius: 10px;
+}
+.logo{
+    margin:20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+.fonte2{
+    font-size: 40pt;
+    margin: 10px 0px 0px 50px;
+}
+.email{
+    margin: 40px 0px 2px 60px;
+    text-decoration: underline;
+    color: gold;
+}
+.campoemail{
+    margin: 2px 0px 2px 50px;
+}
+input{
+    width: 230px;
+    height: 26px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.senha{
+    margin: 20px 0px 2px 60px;
+    text-decoration: underline;
+    color: gold;
+}
+.camposenha{
+    margin: 2px 0px 2px 50px;
+}
+button{
+    width:120px ;
+    height: 60px;
+    margin: 40px 0px 0px 172px;
+    background-color: gold;
+    border: 1px solid;
+    border-radius: 30px;
+    color:rgb(17, 5, 89) ;
+    font-weight: bold;
+}
+button > a{
+    color: rgb(17, 5, 89);
+    text-decoration: none;
+}
+button>a:hover{
+    color: white;
+}
+.link3{
+    display: inline-block;
+    justify-content: center;
+    width: 170px;
+    height: 30px;
+    padding: 20px 40px 0px 80px;
+}
+.link3 > a{
+    color: gold;
+    text-decoration: none;
+}
+.link3 > a:hover {
+    color: white;
+}
+.link4{
+    display: inline-block;
+    justify-content: center;
+    width: 170px;
+    height: 30px;
+    padding: 30px 0px 0px 0px;  
+    text-decoration: none;
+}
+.link4 > a{
+    color: gold;
+    text-decoration: none;
+}
+.link4 > a:hover {
+    color: white;
+}
